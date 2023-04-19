@@ -1,0 +1,369 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+    border:none;
+    text-decoration: none;
+    transition: .2s linear;
+}
+body{
+    /* background-color: var(--color2); */
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: 5rem;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    --color1: #fff;
+    --color2: #181818;
+
+  }
+
+
+  /* header section start */
+
+  .head_sec{
+    background-image: url(photo/header-food.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #16BA0A;
+    background-blend-mode: multiply;
+    padding: 10% 7%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .head_cont h1{
+    font-size: 5rem;
+    color: #fff;
+    margin: 2rem 0rem;
+  }
+  .head_cont .head_btn{
+    font-size: 1.8rem;
+    color: #000;
+    width: 14rem;
+    height: 5rem;
+    background-color: #fff;
+    margin: 7rem 0rem;
+  }
+  .head_cont .head_btn:hover{
+    background-color: #000;
+    color: #fff;
+  }
+
+
+  /* header section end */
+
+  /* product section start */
+
+  .product_sec{
+    padding: 5% 7%;
+  }
+  .product_sec h2{
+    color: #000;
+    font-size: 6rem;
+    text-align: center;
+    padding: 5rem 0;
+  }
+  .product{
+    box-shadow: 3px 3px 10px #ddd;
+  }
+
+  .product img{
+    padding: 3rem;
+  }
+  .product_row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .product_row .price{
+    display: flex;
+    justify-content: space-around;
+    color: #16BA0A;
+    padding-top: 2rem;
+  }
+  .product h3{
+    font-size: 1.8rem;
+  }
+  .product p{
+    font-size: 1.5rem;
+    line-height: 22px;
+    padding: 3rem 0rem;
+  }
+  .product a{
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: end;
+    width: 10rem;
+    height: 4rem;
+    padding: 1.5rem 3rem;
+    background-color: #000;
+    border-radius: 50px;
+  }
+  .product a:hover{
+    color: #ddd;
+    background-color: #16BA0A;
+  }
+
+  /* product section end */
+
+  /* about section start */
+
+  .about_sec{
+    background-image: url(photo/almond.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #141413;
+    background-blend-mode: multiply;
+    padding: 5% 7%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_cont h2{
+    font-size: 5rem;
+    color: #fff;
+    padding-bottom: 5rem;
+}
+.about_cont p{
+  font-size: 2rem;
+  color: var(--color1);
+  line-height: 3.5rem;
+  padding-bottom: 6rem;
+}
+.about_sec .about_btn{
+        width: 15rem;
+        height: 5rem;
+        background-color: #16BA0A;
+        color: #000;
+        border: none;
+        margin-top: 2rem;
+        font-size: 2rem;
+}
+.about_sec .about_btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+  /* about section end */
+
+  /* news section start */
+
+  .news_sec{
+    padding: 5% 10%;
+  }
+  .news_sec h2{
+    font-size: 5rem;
+    color: #000;
+    text-align: center;
+    padding: 5rem 0;
+  }
+.last_news img{
+    width: 50%;
+    height: 27rem;
+    text-align: center;
+  }
+  .last_news .news-img{
+    background-color: #ddd;
+    text-align: center;
+  }
+  .news_sec .last_news{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(39rem, 1fr));
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .news_cont h3{
+    font-size: 3rem;
+    color: #000;
+    padding-bottom: 2rem;
+  }
+  .news_cont p{
+    font-size: 1.8rem;
+    color: #000;
+    line-height: 26px;
+    margin-bottom: 5rem;
+  }
+.news_cont a{
+  font-size: 1.8rem;
+  width: 14rem;
+  height: 5rem;
+  background-color: #16BA0A;
+  color: #fff;
+  padding: 1.6rem 3rem;
+}
+
+  /* news section end */
+
+  /* testimonial section start */
+
+  .testimonial_sec{
+    padding: 4% 7%;
+    background-color: #181818;
+    text-align: center;
+  }
+  .testimonial_section_2 h3{
+    font-size: 3rem;
+    color: #fff;
+    padding: 3rem 0;
+  }
+  .testimonial_sec h2{
+    color: #fff;
+    font-size: 6rem;
+    padding: 3rem 0;
+  }
+  .testimonial_section_2 p{
+    font-size: 1.8rem;
+    color: #fff;
+    line-height: 26px;
+    padding: 0 10%;
+    padding-bottom: 5rem;
+  }
+  .testimonial_section_2 img{
+    border-radius: 50%;
+  }
+
+
+  /* testimonial section end */
+
+  /* contact section start */
+
+.contact{
+    padding: 4% 2%;
+}
+.contact .heading{
+    text-align: center;
+    font-size: 7rem;
+    color: #000;
+    padding: 4rem 0rem;
+}
+.contact .row{
+  padding: 0% 15%;
+}
+.contact .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+}
+
+.contact .row form{
+    flex:1 1 45rem;
+    padding:5rem 2rem;
+    text-align: center;
+}
+
+.contact .row form h3{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color:#000;
+}
+
+.contact .row form .inputBox{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border:1px solid #000
+}
+
+.contact .row form .inputBox span{
+    color:#000;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
+.contact .row form .inputBox input{
+    width: 100%;
+    padding:2rem;
+    font-size: 1.7rem;
+    color:#000;
+    text-transform: none;
+    background:none;
+}
+.contact .row .contact_btn{
+    width: 13rem;
+    height: 5rem;
+    color: #000;
+    background-color: #16BA0A;
+    font-size: 1.8rem;
+}
+.contact .contact_btn:hover{
+  width: 14rem;
+  height: 5.5rem;
+  color: #fff;
+  background-color: #16BA0A;
+}
+
+/* contact section end */
+
+/* footr area start*/
+
+.footer_area .footer{
+  background-color: #000;
+  padding: 3rem 0;
+
+}
+.footer_area .footer p{
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+}
+/* footr area end*/
+
+
+
+
+@media (max-width:991px){
+
+  html{
+      font-size: 55%;
+  }
+
+  .header{
+      padding:1.5rem 2rem;
+  }
+
+  section{
+      padding:2rem;
+  }
+
+}
+
+
+@media (max-width:450px){
+
+  html{
+      font-size: 50%;
+  }
+
+}
